@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odevler", "Odevler\Odevler.csproj", "{68EFF380-24B6-4E12-BFF4-311B0BAA963B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{89179583-B3F5-4055-BBCF-6C8D3AE579F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCapDemo1", "ReCapDemo1\ReCapDemo1.csproj", "{BC1BF012-5CE3-4069-A419-211EC777155D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68EFF380-24B6-4E12-BFF4-311B0BAA963B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EFF380-24B6-4E12-BFF4-311B0BAA963B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EFF380-24B6-4E12-BFF4-311B0BAA963B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EFF380-24B6-4E12-BFF4-311B0BAA963B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89179583-B3F5-4055-BBCF-6C8D3AE579F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89179583-B3F5-4055-BBCF-6C8D3AE579F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89179583-B3F5-4055-BBCF-6C8D3AE579F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89179583-B3F5-4055-BBCF-6C8D3AE579F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1BF012-5CE3-4069-A419-211EC777155D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1BF012-5CE3-4069-A419-211EC777155D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1BF012-5CE3-4069-A419-211EC777155D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1BF012-5CE3-4069-A419-211EC777155D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7F4CD2-E8A2-4518-AFA0-CB322ECC679E}
+	EndGlobalSection
+EndGlobal
