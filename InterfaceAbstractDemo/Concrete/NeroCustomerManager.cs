@@ -1,4 +1,5 @@
 ﻿using InterfaceAbstractDemo.Abstract;
+using InterfaceAbstractDemo.Adapters;
 using InterfaceAbstractDemo.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,12 @@ namespace InterfaceAbstractDemo.Concrete
 {
     public class NeroCustomerManager : BaseCustomerManager
     {
-        
+        private MernisServiceAdapter mernisServiceAdapter;
+
+        public NeroCustomerManager(MernisServiceAdapter mernisServiceAdapter)
+        {
+            this.mernisServiceAdapter = mernisServiceAdapter;
+        }
     }
 }
 
