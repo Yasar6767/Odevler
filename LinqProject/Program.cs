@@ -25,7 +25,7 @@ namespace LinqProject
             };
             //Test(products);
             var result = products.Any(p => p.ProductName == "Acer Laptop");
-            Console.WriteLine(result);
+            Console.WriteLine(result); 
         }
 
         private static void Test(List<Product> products)
